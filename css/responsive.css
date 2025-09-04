@@ -1,10 +1,6 @@
 /*** This is the section for Desktops */
 
 @media (min-width: 1024px) {
-
-a:hover {
-  background-color: lightblue;
-}
 .teammate-social-icons > div:hover {
   width: 20px;
   height: 20px;
@@ -19,17 +15,33 @@ a:hover {
 
 footer .social-icons .icon:hover{
   background-color:blue;
+  color:white; 
 }
 
 footer .social-icons div:hover{
-background-color: lightblue;
+color:blue;
+}
+
+.top-navigation ul li a:hover {
+  color: blue;
+}
+footer ul li a:hover{
+  color: blue;
+}
+
 }
 /*** This is the area for Tablets */
+
+
 @media (min-width: 768px) and (max-width: 1023px){
+
+
 
 }
 
 /*** This is the area for cell phones */
 @media (max-width: 767px) {
+
+
 
 }
