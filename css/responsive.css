@@ -57,10 +57,22 @@ footer ul li a:hover{
 footer .social-icons .icon:hover{
   background-color:blue;
   color:white; 
+ 
+}
+footer .social-icons .icon{
+  display: flex;
+  justify-content: center;
+
+}
+.social-icons > div {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem; 
 }
 
-footer .social-icons div:hover{
+footer .social-icons span{
 color:blue;
+display: none;
 }
 
 .top-navigation ul li a {
