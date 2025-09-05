@@ -1,6 +1,7 @@
 /*** This is the section for Desktops */
 
 @media (min-width: 1024px) {
+
 .teammate-social-icons > div:hover {
   width: 20px;
   height: 20px;
@@ -31,7 +32,6 @@ footer ul li a:hover{
 .top-navigation .trigram{
   display: none;
 }
-
 }
 /*** This is the area for Tablets */
 
@@ -51,19 +51,21 @@ footer ul li a:hover{
   border-radius: 50%;
   font-size: 10px;
 }
+
 .top-navigation ul li a:hover {
   display:none;
 }
+
 footer .social-icons .icon:hover{
   background-color:blue;
   color:white; 
- 
 }
+
 footer .social-icons .icon{
   display: flex;
   justify-content: center;
-
 }
+
 .social-icons > div {
   display: flex;
   align-items: center;
@@ -78,21 +80,25 @@ display: none;
 .top-navigation ul li a {
   display: none;
 }
+
 footer ul li a:hover{
   color: blue;
 }
+
 .top-navigation .trigram:hover{
-  color:blue
-  
+  color:blue  
 }
+
 .top-navigation{
   display:flex;
   flex-flow: row-reverse;
 }
+
 .portfolio-item{
   display: flex;
   flex-direction: row;
 }
+
 .portfolio-list{
   display:flex;
   flex-direction: column;
@@ -124,6 +130,7 @@ footer ul li a:hover{
   justify-content: center;  
   gap: 2rem;                
 }
+
 .footer-contacts .phones {
   flex-basis: 100%;          
   display: flex;
@@ -131,6 +138,7 @@ footer ul li a:hover{
   align-items: center;      
   margin-top: 1rem;          
 }
+
 .footer-contacts .phones ul {
   display: flex;
   flex-direction: column;
@@ -139,16 +147,7 @@ footer ul li a:hover{
   padding: 0;
   list-style: none;
 }
-
-
-
-
-
-
 }
-
-
-
 
 
 
@@ -156,7 +155,6 @@ footer ul li a:hover{
 
 /*** This is the area for cell phones */
 @media (max-width: 767px) {
-
 
   .teammate-social-icons > div:hover {
   width: 20px;
@@ -186,27 +184,31 @@ color:blue;
 footer ul li a:hover{
   color: blue;
 }
+
 .top-navigation .trigram:hover{
   color:blue  
 }
+
 .top-navigation{
   display:flex;
   flex-flow: row-reverse;
 }
+
 .teammates-list:before,
 .teammates-list:after{
   display: none;
 }
 
-
 .portfolio-item{
   display: flex;
   flex-direction: column;
 }
+
 .portfolio-list{
   display:flex;
   flex-direction: column;
 }
+
 .teammates-list-wrapper{
   display: flex;
   flex-direction: column;
@@ -244,6 +246,4 @@ footer ul li a:hover{
   align-items: center;
   gap: 0.5rem;
 }
-
-
 }
