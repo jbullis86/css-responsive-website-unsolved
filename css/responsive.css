@@ -137,6 +137,12 @@ footer .social-icons div {
   align-items: center;
 }
 
+.teammate-data{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
 .footer-contacts {
   display: flex;
   flex-wrap: wrap;           
@@ -192,6 +198,12 @@ color:blue;
 
 .top-navigation ul li a {
   display: none;
+  
+}
+
+.top-navigation ul li {
+    width: 1px;
+    text-align: right;
 }
 
 footer ul li a:hover{
@@ -204,7 +216,8 @@ footer ul li a:hover{
 
 .top-navigation{
   display:flex;
-  flex-flow: row-reverse;
+  flex-flow: row;
+  align-content: end;
 }
 
 .teammates-list:before,
@@ -237,6 +250,15 @@ footer ul li a:hover{
   align-items: center;
 }
 
+.teammates-content .subtext {
+    color: #969696;
+    width: 100%;
+}
+
+.teammate {
+  border: 2px solid grey;
+  width: 100%;
+}
 .content-vertical {
   display: flex;
   flex-direction: column;
