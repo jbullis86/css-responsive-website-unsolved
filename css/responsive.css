@@ -66,6 +66,10 @@ footer .social-icons .icon{
   justify-content: center;
 }
 
+.teammate-img-wrapper{
+width: 100%;
+}
+
 .social-icons > div {
   display: flex;
   align-items: center;
@@ -87,6 +91,15 @@ footer ul li a:hover{
 
 .top-navigation .trigram:hover{
   color:blue  
+}
+
+footer .social-icons div {
+  width:30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .top-navigation{
